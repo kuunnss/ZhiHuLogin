@@ -1,0 +1,19 @@
+﻿<Window x:Class="ZhiHuLogin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZhiHuLogin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="44" Margin="152,212,0,0" VerticalAlignment="Top" Width="200" Name="Pic" MouseLeftButtonDown="Pic_OnMouseLeftButtonDown"/>
+        <Button Content="登录" HorizontalAlignment="Left" Margin="210,275,0,0" VerticalAlignment="Top" Width="75" Click="ButtonBase_OnClick"/>
+        <TextBox HorizontalAlignment="Left" Name="U1" Height="23" Margin="210,110,0,0" TextWrapping="Wrap" Text="15501533022" VerticalAlignment="Top" Width="120"  />
+
+        <Label Content="账号：" HorizontalAlignment="Left" Margin="152,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="密码" HorizontalAlignment="Left" Margin="152,148,0,0" VerticalAlignment="Top"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="210,148,0,0" VerticalAlignment="Top" Width="120" Height="25" Name="P1" Password="qwas1234" />
+
+    </Grid>
+</Window>
